@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="weixin," />
 
 
 
@@ -79,14 +79,22 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="commonweal">
-<meta property="og:url" content="http://yoursite.com/commonweal/index.html">
+<meta name="description" content="微信小程序学习   例行惯例 放个helloword">
+<meta name="keywords" content="weixin">
+<meta property="og:type" content="article">
+<meta property="og:title" content="weixin">
+<meta property="og:url" content="http://yoursite.com/2018/03/15/weixin/index.html">
 <meta property="og:site_name" content="P、blog">
+<meta property="og:description" content="微信小程序学习   例行惯例 放个helloword">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-18T09:19:05.905Z">
+<meta property="og:image" content="https://s1.ax1x.com/2018/03/15/94x8js.png">
+<meta property="og:image" content="https://s1.ax1x.com/2018/03/15/94xLUf.png">
+<meta property="og:image" content="https://s1.ax1x.com/2018/03/15/94zCbq.png">
+<meta property="og:updated_time" content="2018-03-15T12:50:41.127Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="commonweal">
+<meta name="twitter:title" content="weixin">
+<meta name="twitter:description" content="微信小程序学习   例行惯例 放个helloword">
+<meta name="twitter:image" content="https://s1.ax1x.com/2018/03/15/94x8js.png">
 
 
 
@@ -116,13 +124,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/commonweal/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/03/15/weixin/"/>
 
 
 
 
 
-  <title>commonweal | P、blog</title>
+  <title>weixin | P、blog</title>
   
 
 
@@ -247,33 +255,183 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/15/weixin/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="p、先生">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="P、blog">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">commonweal</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <script src="\assets\js\APlayer.min.js"> </script>
+          <h1 class="post-title" itemprop="name headline">weixin</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-15T20:19:54+08:00">
+                2018-03-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <script src="\assets\js\APlayer.min.js"> </script><h3 align="center">微信小程序学习</h3>
+
+<p><img src="https://s1.ax1x.com/2018/03/15/94x8js.png" alt="mou icon"></p>
+<p></p><h6 align="center">例行惯例 放个helloword</h6><br><a id="more"></a><p></p>
+<p>&nbsp;&nbsp;要我写也写不出什么大道理的话，也是刚开始学习，选择了走前端这条路，总要给自己一个交代。<br>&nbsp;&nbsp;写一些自己在学习时候遇到的问题和学到的知识。<br>&nbsp;&nbsp;从注册微信小程序账户到安装微信开发者工具，官方文档给的确实算很详细了，就想大神们都说的，中国好多的官方文档可以就算是傻瓜式的了，就差帮你安装了。这一块的话我也是按着官网的提示一步步走的，就放一个官方的地址。<a href="https://mp.weixin.qq.com/debug/wxadoc/dev/" target="_blank" rel="noopener">https://mp.weixin.qq.com/debug/wxadoc/dev/</a><br>  下载安装好微信开发者工具后，新建项目，会生成一个默认的文件夹。如下图所示：<br><img src="https://s1.ax1x.com/2018/03/15/94xLUf.png" alt="mou icon"><br>&nbsp;&nbsp;默认的已经为我们建立了helloWorld页面，pages对应的是每一个单独的页面，utile放的是一些工具类的文件，app.js放置一些默认的js代码，再往后的开发中可以将一些常用的js功能封装起来放在app.js方便调用。app.json放的是这个微信小程序的配置。app.wxss则是整体的初始化样式。<br>&nbsp;&nbsp;以index文件夹为例，其中的index.wxml，index.wxss，index.js相当于html文件的html、css、js。微信进行了封装，每个文件夹下的文件只对当前页面有作用。整体来说微信小程序的开发类似于html的开发，具备基本的html，css知识就可以进行样式布局的开发。<br>&nbsp;&nbsp;类似于<view></view><text></text>的标签在官方文档里都有详细的介绍，可以一边参考文档一边自己写，能更加快的学会各种标签的使用方法。<br>这里放一个比较简单的首页轮播的小案例，也是这两天自己在学的时候做的，比较粗糙，但大概就是这样一个标签的使用方法：</p>
+<h5 id="wxml文件"><a href="#wxml文件" class="headerlink" title="wxml文件"></a>wxml文件</h5><pre><code>&lt;view class=&quot;slide&quot;&gt;
+ &lt;swiper class=&quot;swiper&quot; indicator-dots=&quot;{{indicatorDots}}&quot; autoplay=&quot;{{autoplay}}&quot; interval=&quot;{{interval}}&quot; duration=&quot;{{duration}}&quot;&gt;
+  &lt;block wx:for=&quot;{{imgUrls}}&quot; wx:for-index=&quot;index&quot; wx:key=&quot;id&quot;&gt;
+   &lt;swiper-item&gt;
+     &lt;image src=&quot;{{item.image}}&quot; mode=&quot;aspectFill&quot;  /&gt;
+   &lt;/swiper-item&gt;
+  &lt;/block&gt;
+ &lt;/swiper&gt;
+&lt;/view&gt;
+</code></pre><h5 id="wxss文件"><a href="#wxss文件" class="headerlink" title="wxss文件"></a>wxss文件</h5><pre><code>.slide {
+  width: 100%;
+  height: 380rpx;
+}
+.slide .swiper {
+  width: 100%;
+  height: 380rpx;
+}
+.slide .swiper image {
+  width: 100%;
+  height: 380rpx;
+}
+</code></pre><h5 id="js文件"><a href="#js文件" class="headerlink" title="js文件"></a>js文件</h5><pre><code>data: {
+imgUrls: [
+  { &quot;image&quot;: &quot;../../image/banner.png&quot; },
+  { &quot;image&quot;: &quot;../../image/banner2.png&quot; },
+  { &quot;image&quot;: &quot;../../image/banner.png&quot; },
+  { &quot;image&quot;: &quot;../../image/banner2.png&quot; }
+],//图片链接地址
+indicatorDots: true,  //是否显示焦点
+autoplay: true,  //是否自动播放
+interval: 2000,  //自动播放时间间隔
+duration: 500  //滑动时间
+},
+</code></pre><p><img src="https://s1.ax1x.com/2018/03/15/94zCbq.png" alt="mou icon"><br>再往后的学习中在增加吧。</p>
+<h5 align="center">努力成为一名工程师，不做页面仔</h5>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/weixin/" rel="tag"><i class="fa fa-tag"></i> weixin</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/03/03/sessionStore-localStore/" rel="next" title="sessionStore & localStore">
+                <i class="fa fa-chevron-left"></i> sessionStore & localStore
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -306,8 +464,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -374,6 +541,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x5B66;&#x4E60;</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#undefined"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">&#x4F8B;&#x884C;&#x60EF;&#x4F8B; &#x653E;&#x4E2A;helloword</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#wxml文件"><span class="nav-number">1.0.1.</span> <span class="nav-text"><a href="#wxml&#x6587;&#x4EF6;" class="headerlink" title="wxml&#x6587;&#x4EF6;"></a>wxml&#x6587;&#x4EF6;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#wxss文件"><span class="nav-number">1.0.2.</span> <span class="nav-text"><a href="#wxss&#x6587;&#x4EF6;" class="headerlink" title="wxss&#x6587;&#x4EF6;"></a>wxss&#x6587;&#x4EF6;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#js文件"><span class="nav-number">1.0.3.</span> <span class="nav-text"><a href="#js&#x6587;&#x4EF6;" class="headerlink" title="js&#x6587;&#x4EF6;"></a>js&#x6587;&#x4EF6;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#undefined"><span class="nav-number">1.0.4.</span> <span class="nav-text">&#x52AA;&#x529B;&#x6210;&#x4E3A;&#x4E00;&#x540D;&#x5DE5;&#x7A0B;&#x5E08;&#xFF0C;&#x4E0D;&#x505A;&#x9875;&#x9762;&#x4ED4;</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
