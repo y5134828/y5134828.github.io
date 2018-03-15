@@ -79,21 +79,21 @@
 
 
 
-<meta name="description" content="微信小程序学习   例行惯例 放个helloword">
+<meta name="description" content="微信小程序学习   例行惯例 放个helloworld">
 <meta name="keywords" content="weixin">
 <meta property="og:type" content="article">
 <meta property="og:title" content="weixin">
 <meta property="og:url" content="http://yoursite.com/2018/03/15/weixin/index.html">
 <meta property="og:site_name" content="P、blog">
-<meta property="og:description" content="微信小程序学习   例行惯例 放个helloword">
+<meta property="og:description" content="微信小程序学习   例行惯例 放个helloworld">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://s1.ax1x.com/2018/03/15/94x8js.png">
 <meta property="og:image" content="https://s1.ax1x.com/2018/03/15/94xLUf.png">
 <meta property="og:image" content="https://s1.ax1x.com/2018/03/15/94zCbq.png">
-<meta property="og:updated_time" content="2018-03-15T12:50:41.127Z">
+<meta property="og:updated_time" content="2018-03-15T12:53:41.061Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="weixin">
-<meta name="twitter:description" content="微信小程序学习   例行惯例 放个helloword">
+<meta name="twitter:description" content="微信小程序学习   例行惯例 放个helloworld">
 <meta name="twitter:image" content="https://s1.ax1x.com/2018/03/15/94x8js.png">
 
 
@@ -337,7 +337,7 @@
         <script src="\assets\js\APlayer.min.js"> </script><h3 align="center">微信小程序学习</h3>
 
 <p><img src="https://s1.ax1x.com/2018/03/15/94x8js.png" alt="mou icon"></p>
-<p></p><h6 align="center">例行惯例 放个helloword</h6><br><a id="more"></a><p></p>
+<p></p><h6 align="center">例行惯例 放个helloworld</h6><br><a id="more"></a><p></p>
 <p>&nbsp;&nbsp;要我写也写不出什么大道理的话，也是刚开始学习，选择了走前端这条路，总要给自己一个交代。<br>&nbsp;&nbsp;写一些自己在学习时候遇到的问题和学到的知识。<br>&nbsp;&nbsp;从注册微信小程序账户到安装微信开发者工具，官方文档给的确实算很详细了，就想大神们都说的，中国好多的官方文档可以就算是傻瓜式的了，就差帮你安装了。这一块的话我也是按着官网的提示一步步走的，就放一个官方的地址。<a href="https://mp.weixin.qq.com/debug/wxadoc/dev/" target="_blank" rel="noopener">https://mp.weixin.qq.com/debug/wxadoc/dev/</a><br>  下载安装好微信开发者工具后，新建项目，会生成一个默认的文件夹。如下图所示：<br><img src="https://s1.ax1x.com/2018/03/15/94xLUf.png" alt="mou icon"><br>&nbsp;&nbsp;默认的已经为我们建立了helloWorld页面，pages对应的是每一个单独的页面，utile放的是一些工具类的文件，app.js放置一些默认的js代码，再往后的开发中可以将一些常用的js功能封装起来放在app.js方便调用。app.json放的是这个微信小程序的配置。app.wxss则是整体的初始化样式。<br>&nbsp;&nbsp;以index文件夹为例，其中的index.wxml，index.wxss，index.js相当于html文件的html、css、js。微信进行了封装，每个文件夹下的文件只对当前页面有作用。整体来说微信小程序的开发类似于html的开发，具备基本的html，css知识就可以进行样式布局的开发。<br>&nbsp;&nbsp;类似于<view></view><text></text>的标签在官方文档里都有详细的介绍，可以一边参考文档一边自己写，能更加快的学会各种标签的使用方法。<br>这里放一个比较简单的首页轮播的小案例，也是这两天自己在学的时候做的，比较粗糙，但大概就是这样一个标签的使用方法：</p>
 <h5 id="wxml文件"><a href="#wxml文件" class="headerlink" title="wxml文件"></a>wxml文件</h5><pre><code>&lt;view class=&quot;slide&quot;&gt;
  &lt;swiper class=&quot;swiper&quot; indicator-dots=&quot;{{indicatorDots}}&quot; autoplay=&quot;{{autoplay}}&quot; interval=&quot;{{interval}}&quot; duration=&quot;{{duration}}&quot;&gt;
@@ -551,7 +551,7 @@ duration: 500  //滑动时间
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x5B66;&#x4E60;</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#undefined"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">&#x4F8B;&#x884C;&#x60EF;&#x4F8B; &#x653E;&#x4E2A;helloword</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#wxml文件"><span class="nav-number">1.0.1.</span> <span class="nav-text"><a href="#wxml&#x6587;&#x4EF6;" class="headerlink" title="wxml&#x6587;&#x4EF6;"></a>wxml&#x6587;&#x4EF6;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#wxss文件"><span class="nav-number">1.0.2.</span> <span class="nav-text"><a href="#wxss&#x6587;&#x4EF6;" class="headerlink" title="wxss&#x6587;&#x4EF6;"></a>wxss&#x6587;&#x4EF6;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#js文件"><span class="nav-number">1.0.3.</span> <span class="nav-text"><a href="#js&#x6587;&#x4EF6;" class="headerlink" title="js&#x6587;&#x4EF6;"></a>js&#x6587;&#x4EF6;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#undefined"><span class="nav-number">1.0.4.</span> <span class="nav-text">&#x52AA;&#x529B;&#x6210;&#x4E3A;&#x4E00;&#x540D;&#x5DE5;&#x7A0B;&#x5E08;&#xFF0C;&#x4E0D;&#x505A;&#x9875;&#x9762;&#x4ED4;</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x5B66;&#x4E60;</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#undefined"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">&#x4F8B;&#x884C;&#x60EF;&#x4F8B; &#x653E;&#x4E2A;helloworld</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#wxml文件"><span class="nav-number">1.0.1.</span> <span class="nav-text"><a href="#wxml&#x6587;&#x4EF6;" class="headerlink" title="wxml&#x6587;&#x4EF6;"></a>wxml&#x6587;&#x4EF6;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#wxss文件"><span class="nav-number">1.0.2.</span> <span class="nav-text"><a href="#wxss&#x6587;&#x4EF6;" class="headerlink" title="wxss&#x6587;&#x4EF6;"></a>wxss&#x6587;&#x4EF6;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#js文件"><span class="nav-number">1.0.3.</span> <span class="nav-text"><a href="#js&#x6587;&#x4EF6;" class="headerlink" title="js&#x6587;&#x4EF6;"></a>js&#x6587;&#x4EF6;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#undefined"><span class="nav-number">1.0.4.</span> <span class="nav-text">&#x52AA;&#x529B;&#x6210;&#x4E3A;&#x4E00;&#x540D;&#x5DE5;&#x7A0B;&#x5E08;&#xFF0C;&#x4E0D;&#x505A;&#x9875;&#x9762;&#x4ED4;</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
